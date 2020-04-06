@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.centralizar {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+body {
+    background: #d2d2c1 url("../_imagens/fundo.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#interface {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.capa-principal {
+    background-image: url("../_imagens/capa.png");
+    height: 388px;
+}
+
+.barra-navegacao {
+    background-color: #c5c5b2;
+    color: #4b566a;
+    padding: 18px;
+    margin: 0;
+    list-style: none;
+}
+
+.barra-navegacao > li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.barra-navegacao a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.conteudo {
+    padding: 10px;
+    background: #e8e8d9;
+}
+
+h1 {
+    color: #828271;
+    font-size: 1.2em
+}
+
+p{
+    text-align: justify;
+}
+
+.fotos-campanhas {
+    width: 640px;
+    height: 425px;
+    margin: 0 auto;
+}
+
+.fotos-campanhas > img {
+    border: 10px solid #c3c3ae;
+}
