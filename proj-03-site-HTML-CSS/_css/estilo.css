@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/*
+---------Limpando formatações---------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/*
+---------Layout cabeçalho---------
+*/
+
+header {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+.titulo-principal, .barra-navegacao {
+    padding: 10px;
+}
+
+/*
+---------Barra de navegação---------
+*/
+
+.barra-navegacao {
+    list-style: none;
+}
+
+.barra-navegacao > li {
+    display: inline;
+}
+
+.barra-navegacao a {
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.barra-navegacao a:link, .barra-navegacao a:visited {
+    color: #fff;
+}
+
+.barra-navegacao a:hover {
+    color: #f7b600;
+    background: #fff;
+}
+
+/*
+---------Layout conteudo---------
+*/
+
+.area-conteudo-principal {
+    background: #fff;
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagens {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.postagens > span {
+    display: block;
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.postagens a:link, .postagens a:visited, .conteudo-lateral a:link, .conteudo-lateral a:visited {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.postagens a:hover, .conteudo-lateral a:hover {
+    text-decoration: underline;
+}
+
+.postagens > p {
+    margin: 5px 0 5px 0;
+}
+
+.conteudo-lateral {
+    background: #fff;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
+/*
+---------Formatações gerais---------
+*/
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #4e4e4e;
+    background: #ccc;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.branco {
+    color : #fff;
+}
