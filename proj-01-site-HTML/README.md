@@ -1,10 +1,9 @@
 # Projeto UNES-Universidade
-
-# Site Institucional da universidade fictícia UNES
+### Site Institucional da universidade fictícia UNES
 
 ![interface_principal](interface_principal.png?raw=true)
 
-Primeiro Projeto de site, realizado em abril de 2019.
+Primeiro projeto de site, realizado em abril de 2019.
 
 #### Contatos:
 
