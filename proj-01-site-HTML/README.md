@@ -1,3 +1,3 @@
-#Projeto UNES
+#Projeto_UNES
 
-![Interface_Principal](interface_pricipal.png?raw=true)
+![interface_principal](interface_principal.png?raw=true)
